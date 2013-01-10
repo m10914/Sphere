@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{954a101a-2fca-4656-bc65-88879e243b44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleSample.cpp" />
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTShapes.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="cfield.cpp" />
+    <ClCompile Include="cprimitive.cpp" />
+    <ClCompile Include="Manipulator.cpp" />
+    <ClCompile Include="log.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleSample.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="SimpleSample.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTLockFreePipe.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\DXUTShapes.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="cfield.h" />
+    <ClInclude Include="cprimitive.h" />
+    <ClInclude Include="Manipulator.h" />
+    <ClInclude Include="LH_strings_VM.h" />
+    <ClInclude Include="log.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
